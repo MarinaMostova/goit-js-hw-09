@@ -5,7 +5,6 @@ form.addEventListener('submit', onFormSubmit);
 
 function onFormSubmit(event) {
   event.preventDefault();
-
   let inputDelay = event.currentTarget.delay.valueAsNumber;
   const inputDelayStep = event.currentTarget.step.valueAsNumber;
   const inputAmount = event.currentTarget.amount.valueAsNumber;
