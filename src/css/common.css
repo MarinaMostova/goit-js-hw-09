@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.start-button {
+  background-color: rgb(49, 145, 223);
+  padding: 8px 12px;
+  border-radius: 12px;
+  border-color: rgb(49, 145, 223);
+  color: black;
+}
+
+.start-button.is-disabled {
+  background-color: rgb(157, 193, 223);
+  border-color:  rgb(157, 193, 223);
+
+}
+
+.value {
+ padding: 0 5px;
+background-color:rgb(157, 193, 223) ;
+border: 2 solid rgb(49, 145, 223);
+border-radius: 6px;
+}
+
