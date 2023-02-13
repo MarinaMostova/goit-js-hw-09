@@ -27,5 +27,3 @@ function onChangeColorStop(event) {
   buttonStart.removeAttribute('disabled');
   buttonStop.setAttribute('disabled', true);
 }
-
-
